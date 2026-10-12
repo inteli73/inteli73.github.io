@@ -1,19 +1,146 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>macwithgentoo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bitetheapple</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<marquee>Gentoo Linux is free! Switch now!</marquee>
-<h1>Gentoo Linux on your Mac>
-<h2>Written by macwithgentoo</h2>
-<hr>
-<p>Is MacOS too slow on your Mac? Don’t worry, you can install Gentoo Linux on it!</p>
-<a href=“guide”>Go to install guide</a>
 
-<a href=“https://www.gentoo.org/downloads/“>Download Gentoo here</a>
+  <div class="crt">
 
-<img src=“https://www.gentoo.org/assets/img/news/2026/larry-server.png” width=“300”>
-<p>Larry with a server</p>
+    <header>
+      <div class="container">
+        <p class="prompt">guest@bitetheapple<span class="path">:~$</span> whoami</p>
+        <h1>bitetheapple<span class="cursor">_</span></h1>
+        <p class="tagline">// formerly thatpicoder - iOS apps & C projects</p>
+        <nav>
+          <a href="#about">./about</a>
+          <a href="#projects">./projects</a>
+          <a href="#fun">./fun</a>
+          <a href="#contact">./contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="divider"></div>
+
+    <main>
+    <div class="container">
+
+      <section id="about">
+        <p class="prompt">guest@bitetheapple<span class="path">:~$</span> cat about.txt</p>
+        <h2>about</h2>
+        <p>
+          hi there! i'm bitetheapple (formerly thatpicoder). i focus mostly on
+          making iOS apps and projects in C. i also maintain
+          <a href="https://bitetheapple.org">my website</a>, mostly about iOS
+          stuff.
+        </p>
+
+        <h3># languages i specialize in</h3>
+        <ul class="term-list">
+          <li>Swift/SwiftUI - apple's own language for iOS apps</li>
+          <li>C - a very common language capable of complex, low-level actions</li>
+          <li>Python - a simple language i've used in the past</li>
+          <li>HTML/CSS/JS - the language of the internet</li>
+          <li>Shell/Batchfile - for shell/terminal actions on .sh and .bat files</li>
+        </ul>
+
+        <h3># my interests</h3>
+        <div class="interests-grid">
+          <div>
+            <h4>tv_shows/</h4>
+            <ul class="term-list">
+              <li>Mr. Robot (2015-2019)</li>
+              <li>Family Guy (1999-Present)</li>
+              <li>Futurama (1999-Present)</li>
+            </ul>
+          </div>
+          <div>
+            <h4>movies/</h4>
+            <ul class="term-list">
+              <li>The Simpsons Movie (2007)</li>
+              <li>Despicable Me 3 (2017)</li>
+              <li>The Wolf of Wall Street (2013)</li>
+            </ul>
+          </div>
+          <div>
+            <h4>albums/</h4>
+            <ul class="term-list">
+              <li>Ugly is Beautiful (Oliver Tree, 2020)</li>
+              <li>ASTROWORLD (Travis Scott, 2018)</li>
+              <li>WOLF (Tyler, The Creator, 2013)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <p class="prompt">guest@bitetheapple<span class="path">:~$</span> ls ./projects</p>
+        <h2>projects</h2>
+        <div class="project-grid">
+
+          <article class="project-card">
+            <h3>Apple JB</h3>
+            <p>a WIP jailbreaking guide.</p>
+            <a href="applejb">view &rarr;</a>
+          </article>
+
+          <article class="project-card">
+            <h3>linuxdoom-64-bit</h3>
+            <p>id's linuxdoom-1.10 ported to 64-bit linux</p>
+            <a href="https://github.com/thatpicoder/linuxdoom-64-bit">view &rarr;</a>
+          </article>
+
+          <article class="project-card">
+            <h3>AfterFees</h3>
+            <p>an iOS app to help eBay sellers calculate their profits.</p>
+            <a href="https://github.com/thatpicoder/AfterFees">view &rarr;</a>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="fun">
+        <p class="prompt">guest@bitetheapple<span class="path">:~$</span> ls ./fun</p>
+        <h2>fun stuff</h2>
+        <p>random side projects, experiments, and things i made for little to no good reason.</p>
+        <div class="button-grid">
+          <a class="btn" href="https://github.com/thatpicoder/pyCasino">pyCasino</a>
+          <a class="btn" href="https://github.com/thatpicoder/ubrowse_macos">UBrowse macOS</a>
+          <a class="btn" href="https://github.com/thatpicoder/ipconfigplus">ipconfigplus</a>
+          <a class="btn" href="https://github.com/thatpicoder/git-uploader">git uploader</a>
+          <a class="btn" href="https://github.com/thatpicoder/pedometer124">pedometer124</a>
+          <a class="btn" href="https://github.com/thatpicoder/ram-downloader">RAM Downloader</a>
+        </div>
+      </section>
+
+      <section id="contact">
+        <p class="prompt">guest@bitetheapple<span class="path">:~$</span> cat contact.txt</p>
+        <h2>socials</h2>
+        <p>i do stuff on these places</p>
+        <ul class="contact-list">
+          <li><a href="https://www.ifixit.com/User/5631819/bitetheapple">ifixit</a></li>
+          <li><a href="https://github.com/thatpicoder">github</a></li>
+          <li><a href="https://tiktok.com/@thatpicoder">tiktok</a></li>
+          <li><a href="https://www.youtube.com/@thatpicoder">youtube</a></li>
+          <li><a href="mailto:appl@bitetheapple.org">email</a></li>
+        </ul>
+      </section>
+
+    </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p><span class="path">&copy;</span> <span id="year"></span> bitetheapple. all rights reserved.</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
