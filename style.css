@@ -16,7 +16,7 @@
 
 body {
   margin: 0;
-  background: var(--bg) url("starfield.jpg") repeat;
+  background: var(--bg) url("gloomy-forest.jpg") repeat;
   background-size: 400px 400px;
   color: var(--fg);
   font-family: "Fira Code", "Courier New", Courier, monospace;
