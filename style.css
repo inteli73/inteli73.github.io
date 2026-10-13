@@ -16,8 +16,8 @@
 
 body {
   margin: 0;
-  background: var(--bg) url("gloomy-forest.jpg") repeat;
-  background-size: 1920px 1080px;
+  background: var(--bg) url("gloomy-forest.jpg") no-repeat center center fixed;
+  background-size: cover;
   color: var(--fg);
   font-family: "Fira Code", "Courier New", Courier, monospace;
   line-height: 1.6;
