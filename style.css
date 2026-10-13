@@ -16,7 +16,7 @@
 
 body {
   margin: 0;
-  background: var(--bg) url("gloomy-forest.jpg") no-repeat center center fixed;
+  background: var(--bg) url("gloomy-forest-blurred.jpg") no-repeat center center fixed;
   background-size: cover;
   color: var(--fg);
   font-family: "Fira Code", "Courier New", Courier, monospace;
